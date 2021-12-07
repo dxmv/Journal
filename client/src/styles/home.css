@@ -1,0 +1,128 @@
+.main{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 96vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("file:///D:/JAVA%20SCRIPT%20PROJECTS/Journal/client/src/styles/Bg.jpg");
+}
+.journal-list{
+  text-align: left;
+  padding: 10px;
+}
+.carousel{
+  width: 40%;
+  height: 35vh;
+  border:1px solid #777;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1faee;
+  border-radius: 2rem;
+}
+.carousel-content{
+  max-width: 70%;
+}
+
+.carousel-text{
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.carousel-link{
+  font-family: 'Mohave', sans-serif !important;
+  margin-top: 10px;
+  color: black;
+  text-transform: uppercase;
+  border:2px solid #457b9d;
+  padding:0.5rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  position: relative;
+  font-weight: 600;
+}
+.carousel-link::after{
+  content: "";
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: #457b9d;
+  top:0;
+  left: 0;
+  transition: 0.8s;
+
+}
+.carousel-link:hover:after{
+  cursor: pointer;
+  height: 100%;
+}
+.carousel-arrow{
+  font-size: 2rem;
+  margin:0 10px;
+}
+.arrow:hover{
+  background-color: #888;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.home-header{
+  font-size: 3.5rem;
+  margin-top: 0.3rem;
+}
+.main-list{
+  width: 60%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 20% 80%;
+}
+.filter{
+  text-align: left;
+  padding: 20px 30px;
+  border:1px solid #555;
+  display: flex;
+  flex-direction: column;
+  max-height: 30vh;
+  background-color: #f1faee;
+}
+.filter-label{
+  margin: 10px 0px;
+  font-family: 'Mohave', sans-serif !important;
+}
+.filter-input{
+  font-family: 'Mohave', sans-serif !important;
+  padding: 5px;
+  font-size: 1.1rem;
+  background-color: #457b9d;
+  color:white;
+  border-radius: .2rem;
+  border:none;
+}
+.filter-input:placeholder-shown,.filter-input::placeholder{
+  color:white;
+}
+.entry-date{
+  margin-bottom: 2rem;
+}
+.entry-list>div{
+  margin:0.6rem 0;
+}
+.journal-item{
+  background-color: #f1faee;
+  padding:1rem;
+  border:2px solid #1d3557;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid #777;
+  margin-bottom: 1rem;
+}
+.journal-item-para{
+  font-family: 'Mohave', sans-serif !important;
+  margin: 0.4rem 0;
+  font-size: 1.2rem;
+}

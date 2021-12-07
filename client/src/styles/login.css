@@ -1,0 +1,18 @@
+.login-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://upload.wikimedia.org/wikipedia/commons/e/ec/Marcus.aurelius.horse.statue.rome.arp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form{
+  width: 15%;
+  max-height: 60vh;
+  background-color: #f1faee;
+  border:1px solid black;
+  padding:20px 20px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,35 @@
+#entry-form-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 96vh;
+  max-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://media-cdn.tripadvisor.com/media/photo-m/1280/19/2e/b9/d8/estatua-de-seneca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#entry-form{
+  width: 20%;
+  min-height: fit-content;
+  max-height: 75vh;
+  background-color: #f1faee;
+  border:1px solid black;
+  padding:20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.chip{
+  background-color: #a8dadc;
+  font-family: 'Mohave', sans-serif !important;
+}
+textarea,.notFound,#search_input,.optionContainer>li{
+  font-family: 'Mohave', sans-serif !important;
+  background-color: #457b9d;
+  color:#f1faee
+}
+.searchWrapper{
+  margin-top: 0.3rem;
+  border-color: black;
+  background-color: #457b9d;
+  color:#f1faee;
+}

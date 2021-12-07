@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "./build",
+      "rootDir": "./source",
+      "target": "es6",
+      "skipLibCheck": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true 
+  },
+  "files": [
+    "./models",
+    "./controllers",
+    "./routes"
+  ]
+}
